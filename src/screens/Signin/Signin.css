@@ -1,42 +1,78 @@
-body {
-  display:flex;
-  flex-direction:row;
+.title3 {
+  font-size: 50px;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-decoration: solid;
+  margin-bottom: 0px;
+}
+
+.form23 {
+  opacity: .9;
+  margin-left: 0%;
+  margin-top: 10px;
+  color: white;
+  width: 30vw;
+  height: 40vh;
+  border: solid black;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.form23 input {
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  height: 5vh;
+  width: 25vw;
+  font-size: 24px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.ChildButton {
+  border-radius: 5px;
+margin: 5px;
+height: 35px;
+width: 90px;
+}
+
+#password, #username {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.DADdiv {
+  background-image: url(/public/Images/dine.jpeg);
+  background-size: 100%;
+  background-attachment: fixed; 
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: sans-serif;
-} 
-
-
-.form {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.UsrMessage{
+  color: black;
 }
 
-
-input {
-  display: block;
-  display: flex;
-  justify-content:center;
-  margin-bottom: 1vh;
-  margin-left: 40vw; 
+.inputUsername, .inputUserPassword {
+  margin: 0 auto;
+  margin: 10px auto 10px auto
 }
 
-input[type="text"], input[type="password"] {
-  width: 200px;
-  text-align: center;
-}
-
-.form {
-  margin-bottom: 900px;
-}
-
-.button1 {
-  margin-top: 10px;
-  margin-left: 20px;
-} 
-
-.button2 {
-  margin-right: 200px;
-  margin-top: 20px;
+@media screen and (max-width: 900px) {
+  .form23 {
+    width: 70vw;
+  }
+  .form23 input {
+    width: 40vw;
+  } 
 }

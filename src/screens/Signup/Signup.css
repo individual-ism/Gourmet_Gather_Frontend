@@ -1,0 +1,77 @@
+.title4 {
+  font-size: 50px;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-decoration: solid;
+  margin-bottom: 0px;
+}
+
+.form2 {
+  opacity: .9;
+  margin-left: 0%;
+  /* margin-top: 10px; */
+  color: white;
+  border: solid black;
+  width: 30vw;
+  height: 40vh;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.form2 input {
+  font-size: 18px;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  height: 5vh;
+  width: 20vw;
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 10px auto 10px auto;
+}
+
+.ChildButton2 {
+border-radius: 5px;
+margin: 2px;
+height: 35px;
+width: 90px;
+}
+
+ #Confirm, #password, #username {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+
+.MamaDiv {
+  background-image: url(/public/Images/Globe2.jpg);
+  background-attachment: fixed;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 100vh;
+  align-items: center;
+}
+.UsrMessage2 {
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .form2 {
+    width: 70vw;
+  }
+
+  .form2 input {
+    width: 100%;
+  }
+}
